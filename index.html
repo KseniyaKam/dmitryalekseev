@@ -16,124 +16,134 @@
 </head>
 <body>
 	<header class="header__header fixed-container">
-		<div class="header-link">
-			<a href="#" class="header-link-item__link">Услуги</a>
-			<a href="#" class="header-link-item__link">Портфолио</a>
-			<a href="#" class="header-link-item__link">Стоимость</a>
-		</div>
+		<nav class="header-link">
+			<ul class="menu-item-list">
+				<li>
+					<a href="#" class="header-link-item__link">Услуги</a>
+				</li>
+				<li>
+					<a href="#" class="header-link-item__link">Портфолио</a>
+				</li>
+				<li>
+					<a href="#" class="header-link-item__link">Стоимость</a>
+				</li>
+			</ul>
+		</nav>
 		<div class="mobile-menu">
 			<div class="menu-icon"></div>
 		</div>
 		<div class="right-header-link">
-			<a href="#" class="header-number__link">+7 (499) 995-55-77</a>
-			<a href="#" class="call-button__link">Заказать звонок</a>
+			<a href="tel:+74999955577" class="header-number__link">+7 (499) 995-55-77</a>
+			<button class="call-button__link">Заказать звонок</button>
 		</div>
 		<div class="mobile-menu-right"></div>
 	</header>
 
-	<section class="top-section">
-		 <div class="tag-container">
-					<span class="tag-container__items tag-container__item-1">{ }</span>
-					<span class="tag-container__items tag-container__item-2">#</span>
-					<span class="tag-container__items tag-container__item-3">&lt;/&gt;</span>
-					<span class="tag-container__items tag-container__item-4">&lt;div&gt;</span>
-					<span class="tag-container__items tag-container__item-5">&lt;div&gt;</span>
-					<span class="tag-container__items tag-container__item-6">&lt;/&gt;</span>
+	<main>
+		<section class="top-section">
+			 <div class="tag-container">
+						<span class="tag-container__items tag-container__item-1">{ }</span>
+						<span class="tag-container__items tag-container__item-2">#</span>
+						<span class="tag-container__items tag-container__item-3">&lt;/&gt;</span>
+						<span class="tag-container__items tag-container__item-4">&lt;div&gt;</span>
+						<span class="tag-container__items tag-container__item-5">&lt;div&gt;</span>
+						<span class="tag-container__items tag-container__item-6">&lt;/&gt;</span>
+					</div>
+			  	<div class="top-section__ellipse">
+				    <svg xmlns="http://www.w3.org/2000/svg" width="814" height="630" viewBox="0 0 814 630">
+					    <defs>
+					        <linearGradient id="gradient" x1="371.97" x2="548.51" y1="763.68" y2=".74" gradientUnits="userSpaceOnUse">
+								<stop offset="0" stop-color="#ffcc81"/>
+
+								<stop offset=".99" stop-color="#ff2289"/>
+
+								<stop offset="1" stop-color="#ff2289"/>
+					        </linearGradient>
+					    </defs>
+
+					    <path fill="url(#gradient)" d="M395.52 40.407C502.261-10.05 602.994-10.204 687.212 27.67c84.435 37.567 152.356 113.165 198.491 207.114 44.27 94.884 44.223 196.799 8.068 279.242-36.656 83.673-97.666 146.755-180.805 191.777-44.03 22.669-90.312 38.198-149.148 47.731-58.06 9.394-128.676 12.79-203.493 7.944-148.474-9.32-314.876-53.081-349.967-151.79-19.887-49.012-7.404-105.197 17.32-161.739 25.13-56.624 62.503-113.604 101.74-166.115 39.645-52.593 81.155-100.717 123.891-141.53C296.45 99.41 340.817 65.828 395.52 40.408z"/>
+			   		</svg>
+			  </div>
+
+			  <div class="container fixed-container">
+			    <figure class="top-section__wrap">
+					<div class="top-section__pic">
+						<img src="img/man.png" alt="Дмитрий Алексеев | Frontend-разработчик и веб-верстальщик">
+					</div>
+
+					<figcaption class="top-section__txt">
+						<hgroup class="top-section__hgroup">
+							<h1 class="top-section__title">Дмитрий Алексеев</h1>
+
+							<h2 class="top-section__subtitle">Frontend-разработчик и веб-верстальщик</h2>
+						</hgroup>
+
+						<a class="btn btn--red top-section-btn js-scroll-link" href="#about">Узнать больше</a>
+					</figcaption>
+			    </figure>
+			  </div>
+		</section>
+		<section class="fixed-container">
+			<div class="mades-block">
+				<h2 class="mades-block-head__title">Что я делаю</h2>
+				<div class="made-icons">
+					<div class="made-item">
+						<img alt="tools-and-utensils" class="made-item-image__pic" src="img/made1.png">
+						<h3 class="made-item-text__subtitle">Вёрстка лендинг-страниц и сайтов любой сложности</h3>
+					</div>
+					<div class="made-item">
+						<img alt="responsive" class="made-item-image__pic" src="img/made2.png">
+						<h3 class="made-item-text__subtitle">Адаптивная вёрстка под все браузеры и устройства</h3>
+					</div>
+					<div class="made-item">
+						<img alt="programming" class="made-item-image__pic" src="img/made3.png">
+						<h3 class="made-item-text__subtitle">Frontend-разработка и программирование</h3>
+					</div>
+					<div class="made-item">
+						<img alt="coding" class="made-item-image__pic" src="img/made4.png">
+						<h3 class="made-item-text__subtitle">Исправление и доработка существующей вёрстки</h3>
+					</div>
 				</div>
-		  	<div class="top-section__ellipse">
-			    <svg xmlns="http://www.w3.org/2000/svg" width="814" height="630" viewBox="0 0 814 630">
-				    <defs>
-				        <linearGradient id="gradient" x1="371.97" x2="548.51" y1="763.68" y2=".74" gradientUnits="userSpaceOnUse">
-							<stop offset="0" stop-color="#ffcc81"/>
-
-							<stop offset=".99" stop-color="#ff2289"/>
-
-							<stop offset="1" stop-color="#ff2289"/>
-				        </linearGradient>
-				    </defs>
-
-				    <path fill="url(#gradient)" d="M395.52 40.407C502.261-10.05 602.994-10.204 687.212 27.67c84.435 37.567 152.356 113.165 198.491 207.114 44.27 94.884 44.223 196.799 8.068 279.242-36.656 83.673-97.666 146.755-180.805 191.777-44.03 22.669-90.312 38.198-149.148 47.731-58.06 9.394-128.676 12.79-203.493 7.944-148.474-9.32-314.876-53.081-349.967-151.79-19.887-49.012-7.404-105.197 17.32-161.739 25.13-56.624 62.503-113.604 101.74-166.115 39.645-52.593 81.155-100.717 123.891-141.53C296.45 99.41 340.817 65.828 395.52 40.408z"/>
-		   		</svg>
-		  </div>
-
-		  <div class="container fixed-container">
-		    <figure class="top-section__wrap">
-				<div class="top-section__pic">
-					<img src="img/man.png" alt="Дмитрий Алексеев | Frontend-разработчик и веб-верстальщик">
-				</div>
-
-				<figcaption class="top-section__txt">
-					<hgroup class="top-section__hgroup">
-						<h1 class="top-section__title">Дмитрий Алексеев</h1>
-
-						<h2 class="top-section__subtitle">Frontend-разработчик и веб-верстальщик</h2>
-					</hgroup>
-
-					<a class="btn btn--red top-section-btn js-scroll-link" href="#about">Узнать больше</a>
-				</figcaption>
-		    </figure>
-		  </div>
-	</section>
-	<section class="fixed-container">
-		<div class="mades-block">
-			<h2 class="mades-block-head__title">Что я делаю</h2>
-			<div class="made-icons">
-				<div class="made-item">
-					<img alt="tools-and-utensils" class="made-item-image__pic" src="img/made1.png">
-					<h3 class="made-item-text__subtitle">Вёрстка лендинг-страниц и сайтов любой сложности</h3>
-				</div>
-				<div class="made-item">
-					<img alt="responsive" class="made-item-image__pic" src="img/made2.png">
-					<h3 class="made-item-text__subtitle">Адаптивная вёрстка под все браузеры и устройства</h3>
-				</div>
-				<div class="made-item">
-					<img alt="programming" class="made-item-image__pic" src="img/made3.png">
-					<h3 class="made-item-text__subtitle">Frontend-разработка и программирование</h3>
-				</div>
-				<div class="made-item">
-					<img alt="coding" class="made-item-image__pic" src="img/made4.png">
-					<h3 class="made-item-text__subtitle">Исправление и доработка существующей вёрстки</h3>
-				</div>
+				<a class="btn btn--red bottom-section-btn js-scroll-link" href="#about">Узнать больше</a>
 			</div>
-			<a class="btn btn--red bottom-section-btn js-scroll-link" href="#about">Узнать больше</a>
-		</div>
-	</section>
-	<section class="slider-container fixed-container">
-		<h1 class="container-block-head__title">Примеры моих работ</h1>
-		<div class="slider-arrow"></div>
-		<div class="slider-arrow-right"></div>
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-card swiper-item__pic swiper-slide">
-					<img alt="Сайт психолога Веры Антоновой" src="img/mades1.png">
-					<h2 class="swiper-slider-text__subtitle">
-						Сайт психолога Веры Антоновой
-					</h2>
+		</section>
+		<section class="slider-container fixed-container">
+			<h1 class="container-block-head__title">Примеры моих работ</h1>
+			<div class="slider-arrow"></div>
+			<div class="slider-arrow-right"></div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-card swiper-item__pic swiper-slide">
+						<img alt="Сайт психолога Веры Антоновой" src="img/mades1.png">
+						<h2 class="swiper-slider-text__subtitle">
+							Сайт психолога Веры Антоновой
+						</h2>
+					</div>
+					<div class="swiper-card swiper-item__pic swiper-slide">
+						<img alt="Сайт магазина детской одежды" src="img/mades2.png">
+						<h2 class="swiper-slider-text__subtitle">
+							Сайт магазина детской одежды
+						</h2>
+					</div>
+					<div class="swiper-card swiper-item__pic swiper-slide">
+						<img alt="Сайт магазина Рыболов" src="img/mades3.png">
+						<h2 class="swiper-slider-text__subtitle">
+							Сайт магазина "Рыболов"
+						</h2>
+					</div>
 				</div>
-				<div class="swiper-card swiper-item__pic swiper-slide">
-					<img alt="Сайт магазина детской одежды" src="img/mades2.png">
-					<h2 class="swiper-slider-text__subtitle">
-						Сайт магазина детской одежды
-					</h2>
-				</div>
-				<div class="swiper-card swiper-item__pic swiper-slide">
-					<img alt="Сайт магазина Рыболов" src="img/mades3.png">
-					<h2 class="swiper-slider-text__subtitle">
-						Сайт магазина "Рыболов"
-					</h2>
-				</div>
+
 			</div>
+			<a class="btn btn--red bottom-section-btn js-scroll-link" href="#about">Заказать проект</a>
+		</section>
 
+		<div class="gradient-block">
+			<div class="gradient-block-text__txt">
+				<h2 class="gradient-block-first-text__subtitle">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*</h2>
+				<div class="gradient-block-second-text__subtitle">*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач.</div>
+			</div>
 		</div>
-		<a class="btn btn--red bottom-section-btn js-scroll-link" href="#about">Заказать проект</a>
-	</section>
-
-	<div class="gradient-block">
-		<div class="gradient-block-text__txt">
-			<h2 class="gradient-block-first-text__subtitle">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*</h2>
-			<div class="gradient-block-second-text__subtitle">*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач.</div>
-		</div>
-	</div>
+	</main>
 
 	<footer class="footer">
 		<div class="footer__footer fixed-container">

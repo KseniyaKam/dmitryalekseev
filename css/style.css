@@ -64,13 +64,17 @@ a {
 }
 
 .menu-icon {
-	background-image: url('../img/threebars.svg');
+	background-image: url('../img/threebars.png');
 	background-position: left center;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 
 	width: 40px;
 	height: 30px;
+}
+
+.menu-item-list {
+	display: flex;
 }
 
 .swiper-card {
