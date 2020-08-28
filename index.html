@@ -4,12 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 	<title>Дипломный проект</title>
-	<link rel="stylesheet" type="text/css" href="css/Normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link rel="preload" href="css/fonts.css" as="font" crossorigin>
-	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script defer src="js/jquery-3.5.1.min.js"></script>
 	<script defer src="js/swiper.min.js"></script>
 	<script defer src="js/script.js"></script>
@@ -32,10 +30,10 @@
 		<div class="mobile-menu">
 			<div class="menu-icon"></div>
 		</div>
-		<div class="right-header-link">
-			<a href="tel:+74999955577" class="header-number__link">+7 (499) 995-55-77</a>
-			<button class="call-button__link">Заказать звонок</button>
-		</div>
+
+		<a href="tel:+74999955577" class="header-number__link">+7 (499) 995-55-77</a>
+		<button class="call-button__link">Заказать звонок</button>
+
 		<div class="mobile-menu-right"></div>
 	</header>
 
@@ -51,11 +49,9 @@
 					</div>
 
 			  <div class="fixed-container">
-			    <figure class="top-section__wrap">
+			    <div class="top-section__wrap">
 
-					<img src="img/man.png" alt="Дмитрий Алексеев | Frontend-разработчик и веб-верстальщик" class="top-section__pic">
-
-					<div class="top-section__txt">
+			    	<div class="top-section__txt">
 
 						<h1 class="top-section__title">Дмитрий Алексеев</h1>
 
@@ -63,7 +59,10 @@
 
 						<a class="btn btn--red top-section-btn js-scroll-link" href="#about">Узнать больше</a>
 					</div>
-			    </figure>
+
+					<img src="img/man.png" alt="Дмитрий Алексеев | Frontend-разработчик и веб-верстальщик" class="top-section__pic">
+
+			    </div>
 			  </div>
 		</section>
 		<section class="fixed-container">
@@ -117,7 +116,7 @@
 				</div>
 
 			</div>
-			<a class="btn btn--red bottom-section-btn js-scroll-link" href="#about">Заказать проект</a>
+			<button class="btn btn--red bottom-section-btn js-scroll-link">Заказать проект</button>
 		</section>
 
 		<div class="gradient-block">
