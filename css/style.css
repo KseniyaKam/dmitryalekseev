@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Black';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -248,9 +248,27 @@ a {
 }
 
 .made-item {
-	max-width: 300px;
-    display: table-cell;
-    margin: 0 50px;
+	max-width: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    background-size: 115px
+}
+
+.first-made-icon {
+	background-image: url('../img/made1.png');	
+}
+
+.second-made-icon {
+	background-image: url('../img/made2.png');
+}
+
+.third-made-icon {
+	background-image: url('../img/made3.png');
+}
+
+.fourth-made-icon {
+	background-image: url('../img/made4.png');	
 }
 
 .made-item-image__pic {
@@ -262,6 +280,11 @@ a {
 .mades-block-head__title {
 	font-size: 55px;
 	margin-top: 120px;
+}
+
+.mades-block {
+	display: flex;
+	flex-direction: column;
 }
 
 .made-item-text__subtitle {
@@ -290,7 +313,7 @@ a {
 .call-button__link {
 	background-color: white;
 
-	padding: 10px 30px;
+	padding: 10px 40px;
 
 	color: #ff006a;
 	border: 1px solid #ff2289;
@@ -334,9 +357,8 @@ a {
 
 .header-number__link {
 	display: inline-block;
-	margin-right: 20px;
-
-	font-size: 24px;
+	margin-right: 28px;
+    font-size: 25px;
 
 	color: black;
 	font-weight: bold;
@@ -387,13 +409,23 @@ a {
     width: 16px;
 }
 
+.made-icons {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 
 .header__header {
 	display: flex;
 
 	align-items: center;
 
-	padding: 20px 0;
+	padding: 25px 0;
+	padding-top: 32px;
+}
+
+.menu-item {
+	margin-right: 31px;
 }
 
 .header-link {
@@ -402,7 +434,6 @@ a {
 }
 
 .header-link-item__link {
-	margin-right: 20px;
 	padding-bottom: 2px;
 
 	transition: .25s ease; 
@@ -521,7 +552,7 @@ a {
 	position: relative;
     background-color: #fbfbfb;
     background-image: url(../img/bg.svg);
-    background-position: 130% -15%;
+    background-position: 119% -16%;
     background-repeat: no-repeat;
 
     margin-top: 30px;
@@ -535,25 +566,22 @@ a {
 	z-index: 2;
 }
 
-.top-section__txt{
-  	flex-grow: 1;
-
+.top-section__txt {
+	transform: translateY(-51px);
 }
 
 .top-section__pic{
-	width: 487px;
-	position: relative;
-	line-height: 0;
-	right: -81px;
+	width: 454px;
+    transform: translateX(90px);
+
+    filter: drop-shadow(10px 0px 21px #000);
 }
-
-
 
 .top-section__title{
 	color: #1f1f24;
 	margin: 0;
 	font-weight: 900;
-	font-size: 80px;
+	font-size: 73px;
 }
 
 .top-section__subtitle{
@@ -699,11 +727,6 @@ a {
 
 	.top-section-btn{
 		width: 320px;
-	}
-
-	.made-icons {
-		display: flex;
-		flex-wrap: wrap;
 	}
 
 	.made-item {
