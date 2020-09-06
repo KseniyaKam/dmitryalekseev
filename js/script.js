@@ -1,9 +1,11 @@
-const slider = document.querySelector('.swiper-container');
-
-let mySwiper = new Swiper(slider, {
+let mySwiper = new Swiper('.swiper-container', {
 	loop: true,
 	slidesPerView: 1,
 	spaceBetween: 10,
+	navigation: {
+    nextEl: '.slider-arrow-right',
+    prevEl: '.slider-arrow',
+  	},
 	
 	breakpoints:  {
 		320: {

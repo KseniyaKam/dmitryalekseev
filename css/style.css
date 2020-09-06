@@ -141,7 +141,7 @@ a {
 
 .swiper-container {
 
-	position: relative;
+
 
     max-width: 1250px;
     max-height: 447px;
@@ -149,6 +149,9 @@ a {
 
 .slider-container {
 	position: relative;
+	display: flex;
+    flex-direction: column;
+    margin-top: 193px !important;
 }
 
 .fixed-container {
@@ -165,16 +168,18 @@ a {
 
 .container-block-head__title {
 	font-size: 52px;
-	margin-top: 193px;
 	margin-bottom: 65px;
 }
 
+.swiper-all-container {
+	position: relative;
+}
 
 .gradient-block {
 	width: 100%;
 	height: 355px;
 	background: linear-gradient(to right top, #ffcc81, #ff2289);
-    margin-top: 100px;
+    margin-top: 150px;
     color: white;
 }
 
@@ -203,8 +208,8 @@ a {
     width: 60px;
 
     position: absolute;
-    top: 240px;
-    left: 0px;
+    top: 110px;
+    left: -30px;
 
     border-radius: 100px;
 	box-shadow: 0 0 30px 5px #bdbdbd;
@@ -225,8 +230,8 @@ a {
     width: 60px;
 
     position: absolute;
-    top: 240px;
-    right: -40px;
+    top: 110px;
+    right: -30px;
 
     border-radius: 100px;
 	box-shadow: 0 0 30px 5px #bdbdbd;
@@ -248,11 +253,11 @@ a {
 }
 
 .made-item {
-	max-width: 280px;
+	width: 20%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 200px;
-    background-size: 115px
+    padding-top: 183px;
+    background-size: 75px
 }
 
 .first-made-icon {
@@ -279,7 +284,7 @@ a {
 
 .mades-block-head__title {
 	font-size: 55px;
-	margin-top: 120px;
+	margin-top: 88px;
 }
 
 .mades-block {
@@ -290,7 +295,7 @@ a {
 .made-item-text__subtitle {
 	text-align: center;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 20px;
     color: #bdbdbd;
 
 }
@@ -412,6 +417,7 @@ a {
 .made-icons {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 
@@ -518,7 +524,7 @@ a {
 }
 
 .bottom-section-btn {
-	margin: 100px auto;
+	margin: 100px auto 0;
 }
 
 .contact-item__link {
@@ -567,14 +573,13 @@ a {
 }
 
 .top-section__txt {
-	transform: translateY(-51px);
+	transform: translateY(-35px);
 }
 
 .top-section__pic{
-	width: 454px;
-    transform: translateX(90px);
+	width: 488px;
+    transform: translateX(124px);
 
-    filter: drop-shadow(10px 0px 21px #000);
 }
 
 .top-section__title{
