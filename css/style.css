@@ -1,14 +1,42 @@
+@font-face {
+	font-family: 'Roboto';
+	src:local('Roboto'), local('Roboto-Regular'),
+		url('../fonts/Roboto-Regular.woff2') format('woff2'), 
+	   	url('../fonts/Roboto-Regular.woff') format('woff'), 
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
 
 @font-face {
-  font-family: 'Roboto-Black';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: local('Roboto Black'), local('Roboto-Black'),
-       url('../fonts/roboto-v20-latin-900.woff2') format('woff2'), 
-       url('../fonts/roboto-v20-latin-900.woff') format('woff'), 
-
+	font-family: 'Roboto';
+	src:local('Roboto'), local('Roboto-Bold'),
+		url('../fonts/Roboto-Bold.woff2') format('woff2'), 
+	   	url('../fonts/Roboto-Bold.woff') format('woff'), 
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
 }
+
+@font-face {
+	font-family: 'Roboto';
+	src:local('Roboto'), local('Roboto-Black'),
+		url('../fonts/Roboto-Black.woff2') format('woff2'), 
+	   	url('../fonts/Roboto-Black.woff') format('woff'), 
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src:url('../fonts/roboto-v20-latin-900.woff2') format('woff2'), 
+	   	url('../fonts/roboto-v20-latin-900.woff') format('woff'), 
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+}
+
 
 @font-face {
   font-family: 'Roboto';
@@ -20,15 +48,6 @@
        url('../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff') format('woff');
 }
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Roboto Italic'), local('Roboto-Italic'),
-       url('../fonts/roboto/roboto-v20-latin_cyrillic-italic.woff2') format('woff2'),
-       url('../fonts/roboto/roboto-v20-latin_cyrillic-italic.woff') format('woff');
-}
 
 @font-face {
   font-family: 'Roboto';
@@ -40,15 +59,7 @@
        url('../fonts/roboto/roboto-v20-latin_cyrillic-700.woff') format('woff');
 }
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
-       url('../fonts/roboto/roboto-v20-latin_cyrillic-700italic.woff2') format('woff2'),
-       url('../fonts/roboto/roboto-v20-latin_cyrillic-700italic.woff') format('woff');
-}
+
 
 html, body{
 	min-height: 100%;
@@ -586,7 +597,7 @@ a {
 	color: #1f1f24;
 	margin: 0;
 	font-weight: 900;
-	font-size: 73px;
+	font-size: 75px;
 }
 
 .top-section__subtitle{
