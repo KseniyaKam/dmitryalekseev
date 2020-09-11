@@ -1,7 +1,7 @@
 let mySwiper = new Swiper('.swiper-container', {
 	loop: true,
 	slidesPerView: 1,
-	spaceBetween: 10,
+	spaceBetween: 15,
 	navigation: {
     nextEl: '.slider-arrow-right',
     prevEl: '.slider-arrow',
