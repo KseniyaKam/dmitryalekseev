@@ -13,28 +13,30 @@
 	<script defer src="js/script.js"></script>
 </head>
 <body>
-	<header class="header__header fixed-container">
-		<nav class="header-link">
-			<ul class="menu-item-list">
-				<li class="menu-item">
-					<a href="#" class="header-link-item__link">Услуги</a>
-				</li>
-				<li class="menu-item">
-					<a href="#" class="header-link-item__link">Портфолио</a>
-				</li>
-				<li class="menu-item">
-					<a href="#" class="header-link-item__link">Стоимость</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="mobile-menu">
-			<div class="menu-icon"></div>
+	<header class="header__header">
+		<div class="fixed-container">
+			<nav class="header-container">
+				<ul class="menu-item-list">
+					<li class="menu-item">
+						<a href="#" class="header-link-item__link">Услуги</a>
+					</li>
+					<li class="menu-item">
+						<a href="#" class="header-link-item__link">Портфолио</a>
+					</li>
+					<li class="menu-item">
+						<a href="#" class="header-link-item__link">Стоимость</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="mobile-menu-button">
+				<div class="menu-icon"></div>
+			</button>
+
+			<a href="tel:+74999955577" class="header-number__link">+7 (499) 995-55-77</a>
+			<button class="call-button__link top-call-button">Заказать звонок</button>
+
+			<div class="mobile-menu-right"></div>
 		</div>
-
-		<a href="tel:+74999955577" class="header-number__link">+7 (499) 995-55-77</a>
-		<button class="call-button__link">Заказать звонок</button>
-
-		<div class="mobile-menu-right"></div>
 	</header>
 
 	<main>
@@ -60,7 +62,8 @@
 					<img src="img/man.png" alt="Дмитрий Алексеев | Frontend-разработчик и веб-верстальщик" class="top-section__pic">
 			  </div>
 		</section>
-		<section class="fixed-container mades-block">
+		<section class="mades-block">
+			<div class="fixed-container">
 				<h2 class="mades-block-head__title">Что я делаю</h2>
 				<ul class="made-icons">
 					<li class="made-item first-made-icon made-item-text__subtitle">
@@ -77,36 +80,39 @@
 					</li>
 				</ul>
 				<a class="btn btn--red bottom-section-btn js-scroll-link" href="#about">Узнать стоимость</a>
+			</div>
 		</section>
-		<section class="fixed-container slider-container">
-			<h2 class="container-block-head__title">Примеры моих работ</h2>
-			<div class="swiper-all-container">
-				<div class="slider-arrow slider-arrow-left"></div>
-				<div class="slider-arrow slider-arrow-right"></div>
-				<div class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-card swiper-item__pic swiper-slide">
-							<img alt="Сайт психолога Веры Антоновой" src="img/mades1.png">
-							<h2 class="swiper-slider-text__subtitle">
-								Сайт психолога Веры Антоновой
-							</h2>
-						</div>
-						<div class="swiper-card swiper-item__pic swiper-slide">
-							<img alt="Сайт магазина детской одежды" src="img/mades2.png">
-							<h2 class="swiper-slider-text__subtitle">
-								Сайт магазина детской одежды
-							</h2>
-						</div>
-						<div class="swiper-card swiper-item__pic swiper-slide">
-							<img alt="Сайт магазина Рыболов" src="img/mades3.png">
-							<h2 class="swiper-slider-text__subtitle">
-								Сайт магазина "Рыболов"
-							</h2>
+		<section class="slider-container">
+			<div class="fixed-container">
+				<h2 class="container-block-head__title">Примеры моих работ</h2>
+				<div class="swiper-all-container">
+					<div class="slider-arrow slider-arrow-left"></div>
+					<div class="slider-arrow slider-arrow-right"></div>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-card swiper-item__pic swiper-slide">
+								<img alt="Сайт психолога Веры Антоновой" src="img/mades1.png">
+								<h2 class="swiper-slider-text__subtitle">
+									Сайт психолога Веры Антоновой
+								</h2>
+							</div>
+							<div class="swiper-card swiper-item__pic swiper-slide">
+								<img alt="Сайт магазина детской одежды" src="img/mades2.png">
+								<h2 class="swiper-slider-text__subtitle">
+									Сайт магазина детской одежды
+								</h2>
+							</div>
+							<div class="swiper-card swiper-item__pic swiper-slide">
+								<img alt="Сайт магазина Рыболов" src="img/mades3.png">
+								<h2 class="swiper-slider-text__subtitle">
+									Сайт магазина "Рыболов"
+								</h2>
+							</div>
 						</div>
 					</div>
 				</div>
+				<button class="btn btn--red bottom-section-btn js-scroll-link">Заказать проект</button>
 			</div>
-			<button class="btn btn--red bottom-section-btn js-scroll-link">Заказать проект</button>
 		</section>
 
 		<div class="gradient-block">
@@ -130,7 +136,7 @@
 					<a href="#">Стоимость</a>
 				</li>
 			</ul>
-			<div>
+			<div class="second-footer-column">
 				<div class="contact-item__link">
 					<i class="fa fa-phone icons"></i>
 					<div class="contact-text__txt">+7 (499) 995-55-77</div>
