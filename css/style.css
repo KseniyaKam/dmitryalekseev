@@ -116,7 +116,7 @@ a {
     font-weight: normal;
     font-size: 20px;
     text-align: center;
-    margin-top: 28px;
+    margin-top: 42px;
 }
 
 .swiper-container {
@@ -128,7 +128,7 @@ a {
 	position: relative;
 	display: flex;
     flex-direction: column;
-    margin-top: 193px !important;
+    margin-top: 185px !important;
 }
 
 .fixed-container {
@@ -161,31 +161,39 @@ a {
 }
 
 .gradient-block-text__txt {
-	width: 51%;
+	width: 55%;
     margin: auto;
-    padding: 76px 0;
+    margin-left: 23.5%;
+    padding: 78px 0;
 }
 
 .gradient-block-first-text__subtitle {
-	font-size: 48px;
+	font-size: 46px;
+    letter-spacing: -1.2px;
+    word-spacing: 5px;
+    line-height: 1.3;
 }
 
 .gradient-block-second-text__subtitle {
-	font-size: 16px;
-    width: 70%;
-    line-height: 2;
+	font-size: 17px;
+    width: 76%;
+    line-height: 1.9;
+    margin-top: 27px;
+    margin-left: 7px;
+    word-spacing: 0.6px;
+    letter-spacing: 0.4px;
 }
 
 
 .slider-arrow-left {
     position: absolute;
-    top: 90px;
+    top: 100px;
     left: -50px;
 }
 
 .slider-arrow-right {
 	transform: rotate(180deg);
-    top: 90px;
+    top: 100px;
     right: -50px;
 }
 
@@ -285,9 +293,19 @@ a {
 	line-height: 2;
 }
 
+.first-footer-column {
+	margin-left: -10px;
+    margin-top: 5px;
+}
+
 .second-footer-column {
-	margin-left: 60px;
-    margin-top: 10px;
+	margin-left: 55px;
+    margin-top: 14px;
+}
+
+.third-footer-column {
+	margin-right: 12px;
+    margin-top: 7px;
 }
 
 .call-button__link {
@@ -302,6 +320,11 @@ a {
 
 .top-call-button {
 	padding: 13px 40px;
+}
+
+.sprite-footer-icons {
+	margin-top: 20px;
+    margin-left: -10px;
 }
 
 .mobile-menu-right {
@@ -349,6 +372,7 @@ a {
 
 .icons {
 	color: #ff2289; 
+	padding-right: 19px;
 }
 
 .sprite-icons__link {
@@ -499,8 +523,13 @@ a {
 }
 
 .bottom-section-btn {
-	margin: 87px auto 0;
-    padding: 18px 62px;
+	margin: 75px auto 0;
+    padding: 16px 57px;
+}
+
+.second-bottom-section-btn {
+	margin: 93px auto 0;
+    padding: 17px 63px;
 }
 
 .contact-item__link {
@@ -824,7 +853,7 @@ a {
 	}
 
 	.footer-bar {
-		font-size: 15px;
+		font-size: 17px;
 		margin-top: 50px;
 
 	}
