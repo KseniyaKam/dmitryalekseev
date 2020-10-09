@@ -519,7 +519,7 @@ a {
 
 .top-section-btn {
 	font-size: 18px;
-	margin-top: 51px;
+	margin-top: 41px;
 }
 
 .bottom-section-btn {
@@ -593,6 +593,7 @@ a {
 	margin: 0;
 	font-weight: 900;
 	font-size: 80px;
+	margin-top: -8px;
 }
 
 .top-section__subtitle{
