@@ -158,13 +158,14 @@ a {
 	background: linear-gradient(to right top, #ffcc81, #ff2289);
     margin-top: 104px;
     color: white;
+    position: relative;
 }
 
 .gradient-block-text__txt {
 	width: 55%;
     margin: auto;
     margin-left: 23.5%;
-    padding: 78px 0;
+    padding: 74px 0;
 }
 
 .gradient-block-first-text__subtitle {
@@ -228,7 +229,7 @@ a {
 	width: 20%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 183px;
+    padding-top: 173px;
     background-size: 75px
 }
 
@@ -273,8 +274,10 @@ a {
 .made-item-text__subtitle {
 	text-align: center;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     color: #bdbdbd;
+    width: 247px;
+    line-height: 1.5;
 
 }
 
@@ -418,6 +421,10 @@ a {
 	justify-content: space-between;
 }
 
+.header__header {
+	background-color: #fbfbfb;
+}
+
 
 .header__header .fixed-container{
 	display: flex;
@@ -523,7 +530,7 @@ a {
 }
 
 .bottom-section-btn {
-	margin: 75px auto 0;
+	margin: 102px auto 0;
     padding: 16px 57px;
 }
 
@@ -668,6 +675,48 @@ a {
   transform: rotate(14deg);
   animation-name: tag-6;
 }
+
+.bottom-tag-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 35px;
+}
+
+.bottom-tag-container__items {
+  position: absolute;
+  font-size: 47px;
+  font-weight: 700;
+  animation-duration: 5s;
+  z-index: 999;
+}
+
+.bottom-tag-container__item-1 {
+  	top: 16%;
+	left: 3.2%;
+	transform: rotate(29deg);
+	animation-name: tag-1;
+}
+
+.bottom-tag-container__item-2 {
+    top: 70.6%;
+    left: 10.2%;
+    transform: rotate(18deg);
+    animation-name: tag-2;
+}
+
+.bottom-tag-container__item-5 {
+  position: absolute;
+  top: 83%;
+ left: 76%;
+  transform: rotate(21deg);
+  animation-name: tag-5;
+}
+
+
 
 @keyframes tag-1 {
 	0% {
