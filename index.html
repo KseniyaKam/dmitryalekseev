@@ -18,13 +18,13 @@
 			<nav class="header-container">
 				<ul class="menu-item-list">
 					<li class="menu-item">
-						<a href="#" class="header-link-item__link">Услуги</a>
+						<a href="#services" class="header-link-item__link">Услуги</a>
 					</li>
 					<li class="menu-item">
-						<a href="#" class="header-link-item__link">Портфолио</a>
+						<a href="#mades" class="header-link-item__link">Портфолио</a>
 					</li>
 					<li class="menu-item">
-						<a href="#" class="header-link-item__link">Стоимость</a>
+						<a href="#price" class="header-link-item__link">Стоимость</a>
 					</li>
 				</ul>
 			</nav>
@@ -33,13 +33,26 @@
 			</button>
 
 			<a href="tel:+74999955577" class="header-number__link">+7 (499) 995-55-77</a>
-			<button class="call-button__link top-call-button">Заказать звонок</button>
+			<button class="call-button__link top-call-button" id="call-button">Заказать звонок</button>
 
 			<div class="mobile-menu-right"></div>
 		</div>
 	</header>
 
 	<main>
+	<div class="prompt-form-container" id="prompt-form-container">
+    <form class="prompt-form" id="prompt-form">
+      <div class="prompt-message" id="prompt-message">Заказать звонок</div>
+      <div class="input-text">Ваше имя:</div>
+      <input class="modal-input" id="modal-input" name="text" type="text">
+      <div class="input-text">E-mail:</div>
+      <input class="modal-input" id="modal-input" name="text" type="text">
+      <div class="input-text">Телефон:</div>
+      <input class="modal-input" id="modal-input" name="text" type="text">
+      <input class="modal-ok" id="modal-ok" type="submit" value="Заказать">
+      <input class="modal-back" id="modal-back" type="button" name="cancel" value="Отмена">
+    </form>
+  </div>
 		<section class="top-section">
 			 <div class="tag-container">
 						<span class="tag-container__items tag-container__item-1">{ }</span>
@@ -64,7 +77,7 @@
 		</section>
 		<section class="mades-block">
 			<div class="fixed-container">
-				<h2 class="mades-block-head__title">Что я делаю</h2>
+				<h2 id="services" class="mades-block-head__title">Что я делаю</h2>
 				<ul class="made-icons">
 					<li class="made-item first-made-icon made-item-text__subtitle">
 						Вёрстка лендинг-страниц и сайтов любой сложности
@@ -84,7 +97,7 @@
 		</section>
 		<section class="slider-container">
 			<div class="fixed-container">
-				<h2 class="container-block-head__title">Примеры моих работ</h2>
+				<h2 id="mades" class="container-block-head__title">Примеры моих работ</h2>
 				<div class="swiper-all-container">
 					<div class="slider-arrow slider-arrow-left"></div>
 					<div class="slider-arrow slider-arrow-right"></div>
@@ -115,11 +128,13 @@
 			</div>
 		</section>
 
-		<div class="gradient-block">
+		<div id="price" class="gradient-block">
 			 <div class="bottom-tag-container">
 				<span class="bottom-tag-container__items bottom-tag-container__item-1">{ }</span>
 				<span class="bottom-tag-container__items bottom-tag-container__item-2">#</span>
+				<span class="bottom-tag-container__items bottom-tag-container__item-3">{ }</span>
 				<span class="bottom-tag-container__items bottom-tag-container__item-5">&lt;div&gt;</span>
+				<span class="bottom-tag-container__items bottom-tag-container__item-6">&lt;/&gt;</span>
 			</div>
 			<div class="gradient-block-text__txt">
 				<h2 class="gradient-block-first-text__subtitle">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*</h2>
@@ -158,10 +173,10 @@
 			<div class="third-footer-column">
 				<button class="call-button__link">Заказать звонок</button>
 				<div class="sprite-footer-icons">
-					<a href="#" aria-label="vk" class="vk sprite-icons__link"></a>
-					<a href="#" aria-label="fb" class="fb sprite-icons__link"></a>
-					<a href="#" aria-label="tw" class="tw sprite-icons__link"></a>
-					<a href="#" aria-label="inst" class="inst sprite-icons__link"></a>
+					<a href="https://vk.com/" target="_blank" aria-label="vk" class="vk sprite-icons__link"></a>
+					<a href="https://ru-ru.facebook.com/" target="_blank" aria-label="fb" class="fb sprite-icons__link"></a>
+					<a href="https://twitter.com/?lang=ru" target="_blank" aria-label="tw" class="tw sprite-icons__link"></a>
+					<a href="https://www.instagram.com/?hl=ru" target="_blank" aria-label="inst" class="inst sprite-icons__link"></a>
 				</div>
 			</div>
 		</div>

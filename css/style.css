@@ -35,6 +35,7 @@ html, body{
 
 html {
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -161,10 +162,75 @@ a {
     position: relative;
 }
 
+.prompt-form {
+  display: inline-block;
+  width: 500px;
+  border: 3px solid #ff3a8f;
+  background: white;
+  vertical-align: middle;
+}
+
+.prompt-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.prompt-form-container:before {
+  display: inline-block;
+  height: 100%;
+  content: '';
+  vertical-align: middle;
+}
+
+.cover-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 0.3;
+}
+
+.prompt-form input[name="text"] {
+  display: block;
+  margin: 20px 60px;
+  width: 400px;
+  font-size: 20px;
+  font-family: 'Roboto'
+}
+
+.input-text {
+	text-align: left;
+    margin: 0 50px;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.prompt-message {
+	font-size: 36px;
+	font-family: 'Roboto';
+	font-weight: 900;
+	margin: 20px 0;
+}
+
+.modal-ok, .modal-back {
+	background-color: #f44336;
+    color: white;
+    margin: 30px;
+    padding: 10px 20px;
+}
+
 .gradient-block-text__txt {
-	width: 55%;
+	width: 49%;
     margin: auto;
-    margin-left: 23.5%;
     padding: 74px 0;
 }
 
@@ -275,7 +341,7 @@ a {
 	text-align: center;
     font-weight: normal;
     font-size: 18px;
-    color: #bdbdbd;
+    color: #8993ad;
     width: 247px;
     line-height: 1.5;
 
@@ -708,12 +774,28 @@ a {
     animation-name: tag-2;
 }
 
+.bottom-tag-container__item-3 {
+  top: 70%;
+    left: 95.5%;
+  transform: rotate(-21deg);
+  animation-name: tag-3;
+  animation-duration: 4s;
+}
+
 .bottom-tag-container__item-5 {
   position: absolute;
   top: 83%;
  left: 76%;
   transform: rotate(21deg);
   animation-name: tag-5;
+}
+
+.bottom-tag-container__item-6 {
+  	position: absolute;
+    top: 18%;
+    left: 89%;
+    transform: rotate(-21deg);
+    animation-name: tag-6;
 }
 
 

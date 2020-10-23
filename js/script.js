@@ -35,4 +35,11 @@ let mySwiper = new Swiper('.swiper-container', {
 				'z-index':'3',
 				'background-color':'white'});
 	})
+
+	document.getElementById('modal-back').onclick = function() {
+    	$('.prompt-form-container').hide();
+    };
+    document.getElementById('call-button').onclick = function() {
+    	$('.prompt-form-container').show();
+    };
 	
