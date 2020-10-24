@@ -38,8 +38,20 @@ let mySwiper = new Swiper('.swiper-container', {
 
 	document.getElementById('modal-back').onclick = function() {
     	$('.prompt-form-container').hide();
+    	$('.cover-div').hide();
     };
     document.getElementById('call-button').onclick = function() {
-    	$('.prompt-form-container').show();
+    	$('.prompt-form-container').show("slow");
+    	$('.cover-div').show("slow");
+    };
+	
+	document.getElementById('second-bottom-section-btn').onclick = function() {
+    	$('.prompt-form-container').show("slow");
+    	$('.cover-div').show("slow");
+    };
+	
+	document.getElementById('call-button__link').onclick = function() {
+    	$('.prompt-form-container').show("slow");
+    	$('.cover-div').show("slow");
     };
 	

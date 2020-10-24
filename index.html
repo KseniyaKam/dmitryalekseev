@@ -40,15 +40,16 @@
 	</header>
 
 	<main>
+	<div class="cover-div"></div>
 	<div class="prompt-form-container" id="prompt-form-container">
     <form class="prompt-form" id="prompt-form">
       <div class="prompt-message" id="prompt-message">Заказать звонок</div>
       <div class="input-text">Ваше имя:</div>
-      <input class="modal-input" id="modal-input" name="text" type="text">
+      <input class="modal-input" id="modal-input" pattern="[a-zA-Z]+" maxlength="15" name="text" type="text">
       <div class="input-text">E-mail:</div>
-      <input class="modal-input" id="modal-input" name="text" type="text">
+      <input class="modal-input" id="modal-input" pattern="[a-zA-Z0-9/./@]+" maxlength="30" name="text" type="text">
       <div class="input-text">Телефон:</div>
-      <input class="modal-input" id="modal-input" name="text" type="text">
+      <input class="modal-input" id="modal-input" pattern="[0-9]+" maxlength="15" name="text" type="text">
       <input class="modal-ok" id="modal-ok" type="submit" value="Заказать">
       <input class="modal-back" id="modal-back" type="button" name="cancel" value="Отмена">
     </form>
@@ -69,7 +70,7 @@
 
 						<p class="top-section__subtitle">Frontend-разработчик и веб-верстальщик</p>
 
-						<a class="btn btn--red top-section-btn js-scroll-link" href="#about">Узнать больше</a>
+						<a class="btn btn--red top-section-btn js-scroll-link" href="#services" id="top-section-btn">Узнать больше</a>
 					</div>
 
 					<img src="img/man.png" alt="Дмитрий Алексеев | Frontend-разработчик и веб-верстальщик" class="top-section__pic">
@@ -92,7 +93,7 @@
 						Исправление и доработка существующей вёрстки
 					</li>
 				</ul>
-				<a class="btn btn--red bottom-section-btn js-scroll-link" href="#about">Узнать стоимость</a>
+				<a class="btn btn--red bottom-section-btn js-scroll-link" href="#price">Узнать стоимость</a>
 			</div>
 		</section>
 		<section class="slider-container">
@@ -124,7 +125,7 @@
 						</div>
 					</div>
 				</div>
-				<button class="btn btn--red second-bottom-section-btn js-scroll-link">Заказать проект</button>
+				<button class="btn btn--red second-bottom-section-btn js-scroll-link" id="second-bottom-section-btn">Заказать проект</button>
 			</div>
 		</section>
 
@@ -147,13 +148,13 @@
 		<div class="footer__footer fixed-container">
 			<ul class="first-footer-column">
 				<li>
-					<a href="#">Услуги</a>
+					<a href="#services">Услуги</a>
 				</li>
 				<li>
-					<a href="#">Портфолио</a>
+					<a href="#mades">Портфолио</a>
 				</li>
 				<li>
-					<a href="#">Стоимость</a>
+					<a href="#price">Стоимость</a>
 				</li>
 			</ul>
 			<div class="second-footer-column">
@@ -171,7 +172,7 @@
 				</div>
 			</div>
 			<div class="third-footer-column">
-				<button class="call-button__link">Заказать звонок</button>
+				<button class="call-button__link" id="call-button__link">Заказать звонок</button>
 				<div class="sprite-footer-icons">
 					<a href="https://vk.com/" target="_blank" aria-label="vk" class="vk sprite-icons__link"></a>
 					<a href="https://ru-ru.facebook.com/" target="_blank" aria-label="fb" class="fb sprite-icons__link"></a>
