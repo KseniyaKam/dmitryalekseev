@@ -54,4 +54,26 @@ let mySwiper = new Swiper('.swiper-container', {
     	$('.prompt-form-container').show("slow");
     	$('.cover-div').show("slow");
     };
-	
+document.getElementById('modal-ok').onclick = function() {
+	var name = $(".name").val();
+	if (name.length < 3)
+	{
+		$('.name').css('border-color', 'red');
+		return false;
+	}
+		
+	var phone = $(".phone").val(),
+		intRegex = /[0-9 -()+]+$/;
+	if((phone.length < 6) || (!intRegex.test(phone)))
+	{
+		$('.phone').css('border-color', 'red');
+		return false;
+	}
+	var email = $(".email").val(),
+		emailReg = /^([w-.]+@([w-]+.)+[w-]{2,4})?$/;
+	if(!emailReg.test(email) || email == '')
+	{
+		$('.email').css('border-color', 'red');
+		return false;
+	}
+};
